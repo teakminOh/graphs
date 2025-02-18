@@ -23,9 +23,9 @@ Tento projekt vizualizuje dáta v podobe interaktívnych grafov pomocou **Chart.
 
 ![Stĺpcový graf](https://github.com/user-attachments/assets/ad5a65ed-9e3a-430c-8c80-635c80ef3a55)
 
-![Čiarový graf](https://github.com/user-attachments/assets/bfecef68-ce5b-4873-964b-1154ce76e5fa)
+![Kruhový graf](https://github.com/user-attachments/assets/bfecef68-ce5b-4873-964b-1154ce76e5fa)
 
-![Čiarový graf](https://github.com/user-attachments/assets/16d54f06-a377-4d37-86e1-d086fa251278)
+![Čiarový graf](https://github.com/user-attachments/assets/8a4da8de-84d3-48cc-820c-0de47fd4a90a)
 
 ![Zašumený sínus a kosínus](https://github.com/user-attachments/assets/9e5cdaff-daf2-4e42-9a93-68e4846e9199)
 
