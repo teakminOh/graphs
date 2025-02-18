@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+
+    
+
+    <!-- <script src="js/script.js" defer></script> -->
+    <title>Grafy 2</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Grafy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Čast 1.</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Časť 2.</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-sm-fluid align-items-center container d-flex flex-column mb-4">
+      <!-- Amplitude Control Component -->
+      
+    
+      <!-- Canvas for Chart -->
+      <canvas id="realTimeChart" class="mt-4" width="800" height="400"></canvas>
+      
+      <div class="container d-flex justify-content-center flex-column align-items-center">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+          <amplitude-control min="1" max="10" value="1"></amplitude-control>
+          <label>
+            <input type="checkbox" id="toggleInput" checked>Slider / Input
+          </label>
+        </div>
+        <div class="container mt-2 d-flex flex-column align-items-center justify-content-center">
+          <div class="container d-flex justify-content-center gap-1 align-items-center mb-1">
+            <button id="pauseButton" class="btn btn-secondary">Pause</button>
+            <button id="resetZoomButton" class="btn btn-primary">Reset Zoom</button>
+          </div>
+          <button id="endButton" class="btn btn-danger">End Data Collection</button>
+        </div>
+      </div>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@1.2.0"></script>
+    <script src="js/amplitude.js" defer></script>
+  </body>
+</html>

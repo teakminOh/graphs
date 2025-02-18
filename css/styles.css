@@ -1,0 +1,99 @@
+#chart-container, #linechart-container canvas {
+  max-width: 100%;
+  width: 100%;
+}
+#piechart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between charts */
+  justify-content: center;
+  padding: 20px;
+}
+
+
+#piechart-container canvas {
+  border: 1px solid #ddd; /* Optional border around each chart */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  #footerAmp{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}
+@media (max-width: 768px) {
+  #chart-container, #linechart-container canvas {
+    height: 40rem; /* Default height for larger screens */
+  }
+}
+
+@media (max-width: 320px) {
+  #chart-container, #linechart-container canvas {
+    height: 40rem; /* Adjust height for smaller screens */
+  }
+}
+
+@media (min-width: 769px) {
+  #chart-container, #linechart-container canvas {
+    height: 30rem; /* Default height for larger screens */
+  }
+}
+@media (min-width: 1440px) {
+  #chart-container, #linechart-container canvas {
+    width: 80%;
+    max-height: 35rem ; /* Default height for larger screens */
+  }
+}
+
+#gradesComparisonChart {
+  width: 100% !important;  /* Ensures the chart takes full width */
+  height: 100% !important; /* Ensures the chart fills the container height */
+}
+#toggleInput{
+  margin-top: -10rem;
+}
+amplitude-control{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -0.7rem;
+}
+
+#realTimeChart {
+  width: 100%;      /* Make the chart take the full width of its container */
+  max-width: 1000px; /* Set a maximum width for larger screens */    /* Set height to 50% of viewport height */
+  max-height: 500px; /* Set a maximum height for larger screens */
+}
+
+/* For small screens */
+@media (max-width: 600px) {
+  #realTimeChart {
+      width: 90vw;  /* 90% of viewport width on small screens */
+      height: 40vh; /* 60% of viewport height */
+  }
+}
+
+/* For medium screens */
+@media (min-width: 601px) and (max-width: 992px) {
+  #realTimeChart {
+      width: 80vw;
+      height: 50vh;
+  }
+}
+
+/* For large screens */
+@media (min-width: 993px) {
+  #realTimeChart {
+      width: 1000px;   /* Fixed width on larger screens */
+      height: 500px;  /* Fixed height on larger screens */
+  }
+  #footerAmp{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+}

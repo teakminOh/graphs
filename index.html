@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <script src="js/script.js" defer></script>
+
+    <title>Grafy 1</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Grafy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Čast 1.</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="druha_cast.html">Časť 2.</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid mt-4">
+      <h1 class="text-center">Známky z minulých rokov</h1>
+      <section id="part1" class="mt-4">
+        <h3 class="text-center">Stĺpcový graf</h3>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8" id="chart-container">
+            <canvas id="gradesComparisonChart" class="mb-24"></canvas>
+          </div>
+        </div> 
+      </section>
+
+      <section id="part2" class="mt-4 mb-4">
+        <h3 class="text-center">Koláčové grafy</h3>
+        <div id="piechart-container"></div>
+      </section>
+
+      <section id="part3" class="mt-4 mb-5">
+        <h3 class="text-center">Čiarový graf</h3>
+        <div id="linechart-container">
+          <canvas id="gradeTrendsChart"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-body-tertiary text-center py-3">
+      <p>&copy; 2024 Grafy</p>
+    </footer>    
+  </body>
+</html>
