@@ -2,7 +2,7 @@
 
 Tento projekt vizualizuje dáta v podobe interaktívnych grafov pomocou **Chart.js**. Stránka ponúka dve hlavné sekcie: analýzu výsledkov študentov a dynamické vykresľovanie meraní v reálnom čase.  
 
-## 🌎 Funkcie  
+## 🔧 Funkcie  
 
 ✔️ **Výsledky študentov** – Zobrazenie a porovnanie úspešnosti študentov za posledných 6 rokov.  
 ✔️ **Interaktívne grafy** – Stĺpcové a koláčové grafy pre lepšiu prehľadnosť údajov.  
