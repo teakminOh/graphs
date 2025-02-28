@@ -1,41 +1,40 @@
-# 📊 Interaktívna vizualizácia dát  
+# 📊 Interactive Data Visualization  
 
-Tento projekt vizualizuje dáta v podobe interaktívnych grafov pomocou **Chart.js**. Stránka ponúka dve hlavné sekcie: analýzu výsledkov študentov a dynamické vykresľovanie meraní v reálnom čase.  
+This project visualizes data using interactive charts with **Chart.js**. The webpage offers two main sections: analysis of student performance and dynamic real-time data rendering.  
 
-## 🔧 Funkcie  
+## 🔧 Features  
 
-✔️ **Výsledky študentov** – Zobrazenie a porovnanie úspešnosti študentov za posledných 6 rokov.  
-✔️ **Interaktívne grafy** – Stĺpcové a koláčové grafy pre lepšiu prehľadnosť údajov.  
-✔️ **Dynamická vizualizácia dát** – Postupné vykresľovanie meraní so sínusovou a kosínusovou funkciou.  
-✔️ **Úprava dát v reálnom čase** – Možnosť meniť amplitúdu sínusových a kosínusových vĺn.  
-✔️ **Plná responzivita** – Webová stránka je optimalizovaná pre mobilné zariadenia aj PC.  
+✔️ **Student Results** – Display and comparison of student performance over the last six years.  
+✔️ **Interactive Charts** – Bar and pie charts for better data clarity.  
+✔️ **Dynamic Data Visualization** – Progressive rendering of measurements with sine and cosine functions.  
+✔️ **Real-time Data Adjustment** – Ability to modify the amplitude of sine and cosine waves.  
+✔️ **Full Responsiveness** – The webpage is optimized for both mobile devices and PCs.  
 
-## 🛠️ Použité technológie  
+## 🛠️ Technologies Used  
 
-- **HTML** – Štruktúra webovej aplikácie.  
-- **CSS** – Responzívny dizajn a vizuálne rozloženie.  
-- **JavaScript** – Interaktívne funkcie a vizualizácia dát pomocou **Chart.js**.  
-- **Bootstrap** – Rýchle a efektívne vytvorenie responzívneho dizajnu.    
+- **HTML** – Structure of the web application.  
+- **CSS** – Responsive design and visual layout.  
+- **JavaScript** – Interactive features and data visualization using **Chart.js**.  
+- **Bootstrap** – Quick and efficient creation of a responsive design.  
 
-## 📷 Živá ukážka  
+## 📷 Live Demo  
 
-🔗 Pozrite si webovú stránku: [https://webte1.fei.stuba.sk/~xoh/zzzzz/]
+🔗 View the website: [https://webte1.fei.stuba.sk/~xoh/zzzzz/]  
 
-![Stĺpcový graf](https://github.com/user-attachments/assets/ad5a65ed-9e3a-430c-8c80-635c80ef3a55)
+![Bar Chart](https://github.com/user-attachments/assets/ad5a65ed-9e3a-430c-8c80-635c80ef3a55)  
 
-![Kruhový graf](https://github.com/user-attachments/assets/bfecef68-ce5b-4873-964b-1154ce76e5fa)
+![Pie Chart](https://github.com/user-attachments/assets/bfecef68-ce5b-4873-964b-1154ce76e5fa)  
 
-![Čiarový graf](https://github.com/user-attachments/assets/8a4da8de-84d3-48cc-820c-0de47fd4a90a)
+![Line Chart](https://github.com/user-attachments/assets/8a4da8de-84d3-48cc-820c-0de47fd4a90a)  
 
-![Zašumený sínus a kosínus](https://github.com/user-attachments/assets/9e5cdaff-daf2-4e42-9a93-68e4846e9199)
+![Noisy Sine and Cosine](https://github.com/user-attachments/assets/9e5cdaff-daf2-4e42-9a93-68e4846e9199)  
 
+## 🚀 Installation  
 
-
-## 🚀 Inštalácia  
-
-Ak chcete spustiť projekt lokálne:  
+To run the project locally:  
 
 ```bash
 git clone https://github.com/teakminOh/graphs.git
 cd graphs
 open index.html
+```
